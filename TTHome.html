@@ -75,6 +75,9 @@
                     x.type = "password";
                 }
             }
+            function Tiger() {
+                return window.open('index.html','_self');
+            }
         </script>
         <!--
         <br><br><br>
@@ -104,6 +107,8 @@
         <input type="password" placeholder="password" id="password">
         <input type="checkbox" onclick="showPassword();">Show Password
         <div class="gap"></div>
-        <button>Confirm Transfer</button>
+        <button onclick="return Tiger();">
+            Confirm Transfer</button>
+        
     </body>
 </html>
